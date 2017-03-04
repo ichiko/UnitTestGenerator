@@ -23,7 +23,7 @@ class SwiftCodeParser {
             if self.isComment(line: line) {
                 // no action
             } else {
-                self.extractClass(line: line) || self.extractFunction(line: line)
+                _ = self.extractClass(line: line) || self.extractFunction(line: line)
             }
         }
         if let klass = currentClass {
