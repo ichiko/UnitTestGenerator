@@ -228,18 +228,18 @@
 				TargetAttributes = {
 					5F26CE6B1E6A5F7A00A9D437 = {
 						CreatedOnToolsVersion = 8.2;
-						DevelopmentTeam = KCDD36L57T;
+						DevelopmentTeam = Q4G33KVX2Y;
 						ProvisioningStyle = Automatic;
 					};
 					5F26CE7A1E6A5F7B00A9D437 = {
 						CreatedOnToolsVersion = 8.2;
-						DevelopmentTeam = KCDD36L57T;
+						DevelopmentTeam = Q4G33KVX2Y;
 						ProvisioningStyle = Automatic;
 						TestTargetID = 5F26CE6B1E6A5F7A00A9D437;
 					};
 					5F26CE8D1E6A605600A9D437 = {
 						CreatedOnToolsVersion = 8.2;
-						DevelopmentTeam = KCDD36L57T;
+						DevelopmentTeam = Q4G33KVX2Y;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -438,8 +438,9 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Mac Developer";
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = KCDD36L57T;
+				DEVELOPMENT_TEAM = Q4G33KVX2Y;
 				INFOPLIST_FILE = UnitTestGenerator/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = org.tryswift.hackathon.UnitTestGenerator;
@@ -453,8 +454,9 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Mac Developer";
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = KCDD36L57T;
+				DEVELOPMENT_TEAM = Q4G33KVX2Y;
 				INFOPLIST_FILE = UnitTestGenerator/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = org.tryswift.hackathon.UnitTestGenerator;
@@ -468,8 +470,9 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "Mac Developer";
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = KCDD36L57T;
+				DEVELOPMENT_TEAM = Q4G33KVX2Y;
 				INFOPLIST_FILE = UnitTestGeneratorTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = org.tryswift.hackathon.UnitTestGeneratorTests;
@@ -484,8 +487,9 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "Mac Developer";
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = KCDD36L57T;
+				DEVELOPMENT_TEAM = Q4G33KVX2Y;
 				INFOPLIST_FILE = UnitTestGeneratorTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = org.tryswift.hackathon.UnitTestGeneratorTests;
@@ -499,8 +503,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = UnitTestGeneratorPlugin/UnitTestGeneratorPlugin.entitlements;
+				CODE_SIGN_IDENTITY = "Mac Developer";
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = KCDD36L57T;
+				DEVELOPMENT_TEAM = Q4G33KVX2Y;
 				INFOPLIST_FILE = UnitTestGeneratorPlugin/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @executable_path/../../../../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.11;
@@ -515,8 +520,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = UnitTestGeneratorPlugin/UnitTestGeneratorPlugin.entitlements;
+				CODE_SIGN_IDENTITY = "Mac Developer";
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = KCDD36L57T;
+				DEVELOPMENT_TEAM = Q4G33KVX2Y;
 				INFOPLIST_FILE = UnitTestGeneratorPlugin/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @executable_path/../../../../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.11;
@@ -564,6 +570,7 @@
 				5F26CE9E1E6A605600A9D437 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
