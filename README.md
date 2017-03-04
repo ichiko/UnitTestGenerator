@@ -8,7 +8,7 @@ This project was started from [try!Swift Hackathon](https://devpost.com/software
 
 ## How work it
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/z_tSMMcMRkQ" frameborder="0" allowfullscreen></iframe>
+[![](http://img.youtube.com/vi/z_tSMMcMRkQ&feature=youtu.be/0.jpg)](https://www.youtube.com/watch?v=z_tSMMcMRkQ&feature=youtu.be)
 
 ## What it does
 
